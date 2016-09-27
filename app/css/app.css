@@ -269,19 +269,18 @@
       display: none; } }
 
 header {
-  background: rgba(0, 0, 0, 0.95);
   width: 100%;
   z-index: 1000;
   top: 0px; }
-  @media only screen and (min-width: 767px) {
-    header {
-      position: absolute; } }
   header nav {
     width: 100%;
     position: relative;
     background-color: visibility;
-    height: 90px;
+    height: 65px;
     text-align: center; }
+    @media only screen and (min-width: 767px) {
+      header nav {
+        height: 90px; } }
     header nav .menu-mobile {
       display: block;
       float: right;
@@ -294,11 +293,14 @@ header {
         display: block;
         margin-top: 15px;
         box-sizing: border-box;
-        color: #ffffff;
+        color: #d69124;
         transition: all 3s easy; }
         header nav .menu-mobile a:hover {
           background-color: #666666;
           color: white; }
+        header nav .menu-mobile a i {
+          font-size: 50px;
+          /* Preferred icon size */ }
         @media only screen and (min-width: 900px) {
           header nav .menu-mobile a {
             margin-top: 30px; } }
@@ -308,16 +310,15 @@ header {
       clear: both; }
     header nav img {
       max-width: 100%;
-      width: 300px;
       position: relative;
       height: 65px;
-      top: 0px;
+      left: 15px;
+      top: 5px;
       bottom: 0;
       float: left; }
       @media only screen and (min-width: 900px) {
         header nav img {
           margin-left: 20px;
-          width: 330px;
           height: 75px;
           top: 5px; } }
     header nav ul.wrap-menu {
@@ -388,9 +389,6 @@ header {
               header nav ul.wrap-menu li.menu-item a.link-item.active {
                 border: 1px solid #d69124;
                 display: initial; } }
-          @media only screen and (min-width: 767px) {
-            header nav ul.wrap-menu li.menu-item a.link-item {
-              color: #ffffff; } }
           @media only screen and (min-width: 900px) {
             header nav ul.wrap-menu li.menu-item a.link-item {
               font-size: 0.5rem;

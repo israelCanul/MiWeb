@@ -1,19 +1,21 @@
 
 header{
-  background: rgba(0,0,0,0.95);
 
   width: 100%;
   z-index: 1000;
   top: 0px;
   @include tablet{
-    position: absolute;
+
   };
   nav{
     width: 100%;
     position: relative;
     background-color: visibility ;
-    height: 90px;
+    height: 65px;
     text-align: center;
+    @include tablet{
+      height: 90px;
+    };
     .menu-mobile{
       display: block;
       float: right;
@@ -26,13 +28,15 @@ header{
         display: block;
         margin-top: 15px;
         box-sizing: border-box;
-        color: $blanco;
+        color: $dorado;
         transition: all 3s easy;
         &:hover{
           background-color: $gris-texto;
           color: white;
         }
-
+        i{
+          font-size: 50px;  /* Preferred icon size */
+        }
         @include nomobileNav{
           margin-top: 30px;
         }
@@ -41,16 +45,15 @@ header{
     @include clearfix;
     img{
       max-width: 100%;
-      width: 300px;
       position: relative;
       height: 65px;
-      // top: 15px;
-      top: 0px;
+      left: 15px;
+      top: 5px;
       bottom: 0;
       float: left;
       @include nomobileNav{
         margin-left: 20px;
-        width: 330px;
+
         height: 75px;
         top: 5px;
       }
@@ -129,7 +132,7 @@ header{
               }
             }
             @include tablet{
-              color: $blanco;
+
             };
             @include nomobileNav{
               font-size: 0.5rem;
