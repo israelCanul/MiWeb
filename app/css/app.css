@@ -293,7 +293,7 @@ header {
         display: block;
         margin-top: 15px;
         box-sizing: border-box;
-        color: #d69124;
+        color: #3399ff;
         transition: all 3s easy; }
         header nav .menu-mobile a:hover {
           background-color: #666666;
@@ -381,13 +381,13 @@ header {
           display: block; }
           header nav ul.wrap-menu li.menu-item a.link-item:hover {
             transition: all 0.5s ease;
-            background-color: #d69124; }
+            background-color: #3399ff; }
           header nav ul.wrap-menu li.menu-item a.link-item.active {
-            color: #d69124;
+            color: #3399ff;
             background-color: transparent; }
             @media only screen and (min-width: 900px) {
               header nav ul.wrap-menu li.menu-item a.link-item.active {
-                border: 1px solid #d69124;
+                border: 1px solid #3399ff;
                 display: initial; } }
           @media only screen and (min-width: 900px) {
             header nav ul.wrap-menu li.menu-item a.link-item {
@@ -406,14 +406,14 @@ header {
           margin-left: 0px;
           padding-left: 0px;
           display: none;
-          border-top: 0px solid #d69124;
-          border-bottom: 0px solid #d69124;
+          border-top: 0px solid #3399ff;
+          border-bottom: 0px solid #3399ff;
           padding-top: 5px; }
           @media only screen and (min-width: 900px) {
             header nav ul.wrap-menu li.menu-item ul.dropdown-menu {
               box-shadow: 4px 5px 10px 2px #666666;
-              border-top: 0px solid #d69124;
-              border-bottom: 0px solid #d69124;
+              border-top: 0px solid #3399ff;
+              border-bottom: 0px solid #3399ff;
               padding-top: 0px; } }
           header nav ul.wrap-menu li.menu-item ul.dropdown-menu.active {
             display: block; }
@@ -458,7 +458,7 @@ header {
                     padding-bottom: 10px;
                     margin-bottom: 0px; } }
                 header nav ul.wrap-menu li.menu-item ul.dropdown-menu.active li a:hover {
-                  background-color: #d69124; }
+                  background-color: #3399ff; }
 
 .responsive-img {
   max-width: 100%;
@@ -480,15 +480,15 @@ body {
 
 .picker__header {
   font-family: 'open-sans-light';
-  color: #d69124; }
+  color: #3399ff; }
 
 .picker__table {
   font-family: 'open-sans-light'; }
   .picker__table .picker__day--today:before {
-    border-top-color: #d69124; }
+    border-top-color: #3399ff; }
   .picker__table .picker__day--selected.picker__day--highlighted {
-    background: #d69124;
-    border-color: #d69124; }
+    background: #3399ff;
+    border-color: #3399ff; }
 
 .picker__footer .picker__button--today {
   font-family: 'open-sans-light'; }
