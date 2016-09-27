@@ -1,0 +1,43 @@
+@import "variables";
+@import "mixins";
+@import "grid";
+@import "header";
+@import "helpers";
+
+body{
+  margin:0px;
+}
+.picker__header{
+  font-family: 'open-sans-light';
+  color: $dorado;
+}
+.picker__table{
+font-family: 'open-sans-light';
+  .picker__day--today{
+    &:before{
+      border-top-color:$dorado;
+    }
+  }
+  .picker__day--selected.picker__day--highlighted{
+    background: $dorado;
+    border-color: $dorado;
+  }
+}
+.picker__footer{
+  .picker__button--today{
+    font-family: 'open-sans-light';
+  }
+  .picker__button--clear{
+    font-family: 'open-sans-light';
+  }
+  .picker__button--close{
+    font-family: 'open-sans-light';
+  }
+}
+
+.right{
+  float: right !important;
+}
+.left{
+  float: left !important;
+}

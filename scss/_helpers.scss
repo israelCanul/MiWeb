@@ -1,0 +1,19 @@
+.responsive-img{
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+
+}
+
+.without-margin-bottom{
+
+  @include tablet{
+    margin-bottom: 0px !important;
+  };
+}
+.without-padding{
+  padding: 0px !important;
+}
+.center-align{
+  text-align: center;
+}

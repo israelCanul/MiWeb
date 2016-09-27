@@ -1,0 +1,101 @@
+$azul-fuerte-diseno: rgb(0,70,127) !important;//diseño azul de la pagina azul fuerte
+$naranja-diseno:#F76b46;
+$bg_dropdown:#ffffff;
+$blanco:#ffffff;
+$negro:#000000;
+$negro-low:rgba(0,0,0,0.6);
+$gris:#f9f9f9;
+$gris-borde:#9e9e9e;
+$gris-texto: #666666;
+$verde-descuento:#62a70b;
+$rojoNav:#660000;
+$dorado:rgb(214,145,36);
+$textoBook:#996633;
+
+$desktopMin: 1200px;
+$desktop: 1400px;//tamano maximo para escritorio
+$tablet: 767px;//tamano minimo para tablet
+$tablet-s: 601px;//tamano minimo para tablet
+$desktopmax:1900px;
+$nomobileNav:900px;
+$nomobileNav1000:1000px;
+
+$leftMenuMobile:50%;//
+$leftMenuMobileMax:40%;
+
+$numerColumns:12;
+
+//para booking-wrap
+$tamNumberSelect:210px;
+$anchoNumberSelect:250px;
+$tamanoCeldas:50px;
+
+
+//section3 rooms
+$line_heightIcons:30px;
+
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 50px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+  &.small{
+    font-size:20px;
+  }
+}
+
+
+@font-face {
+    font-family: 'trajan-bold';
+    src: url('../fonts/TrajanPro-Bold.otf') format('embedded-opentype');
+    src: url('../fonts/TrajanPro-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'open-sans-light';
+    src: url('../fonts/OpenSans-Light.otf') format('embedded-opentype');
+    src: url('../fonts/OpenSans-Light.ttf') format('truetype');
+    src: url('../fonts/OpenSans-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'open-sans-italic';
+    src: url('../fonts/OpenSans-Italic.otf') format('embedded-opentype');
+    src: url('../fonts/OpenSans-Italic.ttf') format('truetype');
+    src: url('../fonts/OpenSans-Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'trajan-regular';
+    src: url('../fonts/TrajanPro-Regular.otf') format('embedded-opentype');
+    src: url('../fonts/TrajanPro-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'open-sans-regular';
+    src: url('../fonts/OpenSans-Regular.eot') format('embedded-opentype');
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+    src: url('../fonts/OpenSans-Regular.woff') format('woff');
+}
