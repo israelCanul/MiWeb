@@ -1,3 +1,64 @@
 #index{
-  
+  @include clearfix;
+	   .img-container{
+        display:block;
+        text-align:center;
+
+      img{
+        float:none !important;
+        height:200px !important;
+        width:auto;
+        max-width:100%;
+
+      }
+     }
+
+
+  	p{
+  		color:$gris-texto;
+  		text-align:center;
+  		font-size:1.7rem;
+      margin:10px 0px;
+
+  	}
+    .contenedor-noticias{
+          h1{
+            color:$azul-fuerte-diseno;
+            display:block;
+            text-align:left;
+            font-family:'trajan-regular';
+          }
+
+          article{
+            padding:10px;
+            display:flex;
+            flex-direction:column;
+            a{
+                  text-decoration: none;
+                  font-size: 1.5rem;
+                  text-transform: none;
+                  font-weight: 700;
+                  display:block;
+                  color:$dorado;
+                  flex:1;
+            }
+            .box{
+              flex:1;
+              padding:10px;
+                img{
+                  float:left;margin:0 10px 10px 0;max-width:60%;height:auto;
+                }
+                p{
+                  flex:2 0 0;
+                  font-size:1.1rem;
+                  text-align:justify;
+                  color: black;
+                  font-weight: 100;
+                  font-family: open-sans-light;
+                }
+            }
+            
+          }
+    }
+
 }

@@ -8,6 +8,12 @@
 
 body{
   margin:0px;
+  background:$gris;
+  main{
+    max-width:1600px;
+    padding:10px;
+  }
+
 }
 .picker__header{
   font-family: 'open-sans-light';
